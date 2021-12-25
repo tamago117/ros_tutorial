@@ -10,10 +10,10 @@ https://biped-robot.or.jp/upload/dbmaterials/570_12c404eeb61eb935d0e4eee4267a527
 1. [ROSの簡単な仕組み](https://github.com/tamago117/ros_tutorial/blob/master/markdown/node_package.md)  
 1. [publish,subscribe実装](https://github.com/tamago117/ros_tutorial/blob/master/markdown/pub_sub.md)  
 1. [ros debug toolsについて](https://github.com/tamago117/ros_tutorial/blob/master/markdown/debug_tool.md)  
-1. [launchについて]()  
-1. [node、launchへのパラメータ渡し]()  
+1. [launchについて](https://github.com/tamago117/ros_tutorial/blob/master/markdown/launch.md)  
+1. [node、launchへのパラメータ渡し](https://github.com/tamago117/ros_tutorial/blob/master/markdown/arg.md)  
 
-補講. [topicのmessage type]()  
+補講. [topicのmessage type](https://github.com/tamago117/ros_tutorial/blob/master/markdown/message.md)  
 
 ### 中級（そのうち執筆予定）
 1. [rviz、URDFについて]()  
