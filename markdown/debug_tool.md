@@ -53,3 +53,6 @@ Subscribers:
 ```
 rqt_graph
 ```
+![Screenshot from 2021-12-25 04-49-45](https://user-images.githubusercontent.com/38370926/147385447-c4e1d0dc-88af-4335-aa68-de3a0ad9b7e9.png)
+ROSで実用のシステムを作動させる際，下図のように複雑となるため画像情報を表示させるのは有用である．
+![134777815-eceb9985-c178-4d70-a401-cdee52b49079](https://user-images.githubusercontent.com/38370926/147385513-d1500d91-10dd-4d86-bed2-47e15495d523.png)
