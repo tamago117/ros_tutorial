@@ -1,8 +1,6 @@
 #include <ros/ros.h>
 #include <std_msgs/Float32.h>
 
-
-
 float number;
 void chatterCallback(const std_msgs::Float32& msg)
 {

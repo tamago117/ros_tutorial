@@ -3,7 +3,7 @@
 ## package作成
 以下のコマンドを用いてpackage作成
 ```
-catkin_create_pkg ros_basic roscp rospy std_mss tf
+catkin_create_pkg basic_tutorial roscp rospy std_mss tf
 ```
 
 ## publish

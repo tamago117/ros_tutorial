@@ -1,12 +1,13 @@
 <launch>
   <arg name="multiNum" default="2"/>
 
-  <node name="number_publisher"   pkg="rosLecture_kobe" type="number_publisher" >
+  <node name="number_publisher"   pkg="basic_tutorial" type="number_publisher" >
     <remap from="chatter" to="number"/>
   </node>
-  <node name="number_multiplier_arg"   pkg="rosLecture_kobe" type="number_multiplier_arg" >
-	  <remap from="result" to="chatter"/>
+  <node name="number_multiplier_arg"   pkg="basic_tutorial" type="number_multiplier_arg" >
     <param name="multiNum" value="$(arg multiNum)"/>
   </node>
-  <node name="number_subscriber" pkg="rosLecture_kobe" type="number_subscriber" output="screen"/>
+  <node name="number_subscriber" pkg="basic_tutorial" type="number_subscriber" output="screen">
+    <remap from="chatter" to="result"/>
+  </node>
 </launch>
