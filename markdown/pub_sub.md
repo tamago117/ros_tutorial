@@ -177,3 +177,4 @@ rosrun package名 node名
 rosrun ros_basic number_subscriber
 ```
 うまくいっていると以下の画像のようになる。
+![Screenshot from 2021-12-25 04-33-05](https://user-images.githubusercontent.com/38370926/147384917-55942a89-97c0-4fec-8143-559f5cce3984.png)
