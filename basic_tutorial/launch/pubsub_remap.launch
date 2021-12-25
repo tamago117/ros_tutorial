@@ -1,0 +1,9 @@
+<launch>
+  <node name="number_publisher"   pkg="rosLecture_kobe" type="number_publisher" >
+    <remap from="chatter" to="number"/>
+  </node>
+  <node name="number_multiplier"   pkg="rosLecture_kobe" type="number_multiplier" >
+	  <remap from="result" to="chatter"/>
+  </node>
+  <node name="number_subscriber" pkg="rosLecture_kobe" type="number_subscriber" output="screen"/>
+</launch>

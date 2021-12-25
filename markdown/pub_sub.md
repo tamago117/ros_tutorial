@@ -166,13 +166,20 @@ source devel/setup.bash
 ```
 
 ## 実行
-実行には以下のコマンドを用いる
+実行には以下のコマンドを用いる  
+
+１つめのterminal  
+rosのシステムの起動にはroscoreが必ず必要である
+```
+roscore
+```
+2つめのterminal  
+rosrun package名 node名
 ```
 rosrun ros_basic number_publisher
 ```
-rosrun package名 node名  
   
-また別terminalにて
+3つめのterminal
 ```
 rosrun ros_basic number_subscriber
 ```
