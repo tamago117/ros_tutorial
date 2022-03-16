@@ -20,7 +20,7 @@ https://biped-robot.or.jp/upload/dbmaterials/570_12c404eeb61eb935d0e4eee4267a527
 1. [tfについて]()  
 
 ## 自律移動について
-1. [自律移動概略](https://github.com/tamago117/ros_tutorial/blob/master/markdown/.md)
+1. [自律移動概略](https://github.com/tamago117/ros_tutorial/blob/master/markdown/automation.md)
 
 
 ## 参考文献
