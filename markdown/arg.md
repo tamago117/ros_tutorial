@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 {
   float mulNum;
   
-  ros::init(argc, argv, "number_subscriber");
+  ros::init(argc, argv, "number_");
   ros::NodeHandle nh;
   ros::NodeHandle pnh("~");
   pnh.getParam("multiNum", mulNum);
