@@ -4,7 +4,7 @@
 以下のコマンドを用いてpackage作成
 ```
 cd ~/catkin_ws/src
-catkin_create_pkg basic_tutorial roscpp rospy std_msg tf
+catkin_create_pkg basic_tutorial roscpp rospy std_msgs tf
 ```
 
 ## publish
