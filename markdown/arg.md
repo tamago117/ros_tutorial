@@ -62,6 +62,7 @@ source devel/setup.bash
 ## launchへのパラメータ渡し
 それでは新しく作ったnodeをlaunchに組み込み起動してみよう
 ```
+#pubsub_arg.launch
 <launch>
   <arg name="multiNum" default="2"/>
 
