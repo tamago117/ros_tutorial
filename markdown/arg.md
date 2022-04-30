@@ -48,7 +48,7 @@ pnh.getParam("multiNum", mulNum);
 //以下を追加
 
 add_executable(number_multiplier_arg   src/number_multiplier_arg.cpp)
-target_link_libraries(number_publisher
+target_link_libraries(number_multiplier_arg
   ${catkin_LIBRARIES}
 )
 
